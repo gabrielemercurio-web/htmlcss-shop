@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 1008px;
+    height: 675px;
+    position: relative;
+    margin: auto;
+    /* background-color: darkblue; */
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: darkred;
+    display: inline-block;
+    position: relative;
+    margin: 25px;
+    /* padding: 25px; */
+    background-image: url(https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&itemId=11677445-847&recipeName=680);
+    background-size: cover;
+}
+
+.box:nth-child(2) {
+    background-color: orange;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.box-2 {
+    width: 300px;
+    height: 300px;
+    background-color: darkred;
+    display: inline-block;
+    position: relative;
+    margin: 0px 25px 25px;
+    background-image: url(https://media.jeromes.com/content/Image/levels/desktop/bedroom_featured-collections_premier.webp);
+    background-size:cover;
+    /* padding: 25px; */
+}
+
+.box-2:nth-child(5) {
+    background-color: orange;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+span {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: white;
+    border: 2px dashed red;
+    border-radius: 50%;
+    box-shadow: 2px 2px 15px grey;
+}
+
+p {
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 900;
+    color: #000;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
